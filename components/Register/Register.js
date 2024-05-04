@@ -156,7 +156,7 @@ const Register = () => {
             onValueChange={(itemValue, itemIndex) => setGender(itemValue)}
             style={styles.picker}
           >
-            <Picker.Item label="Select Gender *" value="" />
+            <Picker.Item label="Gender *" value="" />
             <Picker.Item label="Male" value="Male" />
             <Picker.Item label="Female" value="Female" />
             <Picker.Item label="Other" value="Other" />
@@ -247,7 +247,8 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     marginTop: 15,
     marginBottom: 10,
-    color: "blue",
+    alignSelf: "center",
+    color: "#008000",
   },
   input: {
     width: "100%",
